@@ -4,7 +4,7 @@
 
 /// Site specific configuration of a wiki.
 ///
-/// This is generated using the program [`fetch_site_configuration`](https://github.com/portstrom/fetch_site_configuration).
+/// This is generated using the program [`fetch_site_configuration`](https://github.com/portstrom/fetch_mediawiki_configuration).
 pub struct ConfigurationSource<'a> {
     /// Aliases of the category namespace.
     pub category_namespaces: &'a [&'a str],
